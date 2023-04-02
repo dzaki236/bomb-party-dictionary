@@ -18,7 +18,7 @@
 		<div class="container mt-4">
 			<h1 class="text-center text-white header-text pt-5 mb-4" style="font-weight:900;">Bomb Party Dictionary
 				Database</h1>
-			<h6 class="text-center text-white header-text mb-2" style="font-weight:500;">More than 400.000+ collection
+			<h6 class="text-center text-white header-text mb-2" style="font-weight:500;">More than 400.000+ collection's
 				bomb party dictionary databases, visit : <a href="https://jklm.fun/" class="text-white" target="_blank"><u>jklm.fun</a></u></h6>
 			<hr>
 		</div>
@@ -33,7 +33,7 @@
 					<div class="form-outline">
 						<input type="search" id="search" class="form-control rounded"
 							placeholder="Type for search collection.." />
-						<label class="form-label" for="form12">Search of more 400k+ collection</label>
+						<label class="form-label" for="form12">Search of more 400k+ collection's</label>
 					</div>
 				</div>
 			</div>
