@@ -128,7 +128,7 @@ $autoload['language'] = array();
 |  Auto-load Models
 | -------------------------------------------------------------------
 | Prototype:
-|
+|dictionary_model
 |	$autoload['model'] = array('first_model', 'second_model');
 |
 | You can also supply an alternative model name to be assigned
@@ -137,4 +137,4 @@ $autoload['language'] = array();
 |	$autoload['model'] = array('first_model' => 'first');
 */
 
-$autoload['model'] = array();
+$autoload['model'] = array('dictionary_model');
