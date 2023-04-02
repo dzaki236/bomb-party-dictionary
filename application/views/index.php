@@ -27,7 +27,7 @@
 	<div class="container mb-5 pb-5">
 		<div class="row">
 			<div class="col-12">
-                <h5 class="mb-4">Klick On <i><b><q>CTRL C + CTRL V</q></b></i> After Search </h5>
+                <h5 class="mb-4">Type <i><b><q>CTRL C + CTRL V</q></b></i> After Search </h5>
 				<div class="input-group mb-4">
 					<span class="input-group-text border-0" id="search-addon"><i class="fas fa-search"></i></span>
 					<div class="form-outline">
