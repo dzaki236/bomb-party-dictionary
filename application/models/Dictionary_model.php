@@ -5,8 +5,19 @@ class Dictionary_model extends CI_Model
 {
     public function select($keywords)
     {
-        $keywords = $this->db->escape_str($keywords);
-        $query = $this->db->query("SELECT * FROM `dictionaries` WHERE word LIKE"."'%".$keywords."%'"."ORDER BY RAND();");
+        // $this->db->select('word');
+        // $this->db->from('dictionaries');
+        if ($keywords != null) {
+            //     # code...
+            $keywords = $this->db->escape_str($keywords);
+            // $this->db->like('word', $keywords);
+            // $this->db->limit(500);
+            $query = $this->db->query("SELECT word FROM `dictionaries` WHERE word LIKE"."'%".$keywords."%'"."ORDER BY RAND() LIMIT 500");
+        }else{
+            // $this->db->limit(0);
+            $query = $this->db->query("SELECT word FROM `dictionaries` WHERE word LIKE"."'%".$keywords."%'"."ORDER BY RAND() LIMIT 0");
+        }
+        // $query = $this->db->get();
         return $query->result();
     }                        
                         
