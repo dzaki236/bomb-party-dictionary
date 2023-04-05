@@ -4,7 +4,8 @@
 	"license": "MIT",
 	"require": {
 		"php": ">=5.2.4",
-		"vlucas/phpdotenv": "^5.5"
+		"vlucas/phpdotenv": "^5.5",
+		"chriskacerguis/codeigniter-restserver": "^3.1"
 	},
 	"require-dev": {
 		"mikey179/vfsstream": "1.1.*"
