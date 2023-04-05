@@ -1,1 +1,1 @@
-#test readme
+# bomb-party-dictionary
